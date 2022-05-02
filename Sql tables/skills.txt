@@ -1,7 +1,0 @@
-//http://t00.deviantart.net/9alLIv1PhqSj2P4L_Uf4cqSDaiI=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre08/163b/th/pre/f/2012/274/8/2/pixel_sword_set_4_by_gakusangi-d5gfzcc.png
-
-INSERT INTO `skills`(`id`, `name`, `file_name`, `damage`) VALUES ('1' , 'Attack', 'attack_skill.png', '10')
-INSERT INTO `skills`(`id`, `name`, `file_name`, `damage`) VALUES ('' , 'God\'s Judgement', 'god_judgement.png', '50')
-INSERT INTO `skills`(`id`, `name`, `file_name`, `damage`) VALUES ('' , 'Demise', 'demise.png', '30')
-
-INSERT INTO `enemy`(`id`, `name`, `health`, `file_name`, `tower_NUM`, `skill_1`, `skill_2`, `skill_3`, `skill_4`) VALUES ('','Nightmare','10,000','boss2.gif','2','1','1','1','1')
