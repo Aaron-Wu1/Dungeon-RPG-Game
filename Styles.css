@@ -1,0 +1,407 @@
+
+#playGame 
+{
+	margin:0px;
+	padding:0px;
+	background-image: url("./Assets/backgroundCastle.jpg");
+	background-repeat: no-repeat;
+}
+#start{
+	height:100px;
+	width:300px;
+	text-align:center;
+}
+#characterSelection{
+	height:1080px;
+	width:1920px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color: green;
+
+}
+.show{
+	visibility: visible;
+}
+
+.hide{
+	visibility: hidden;
+}
+
+/*CSS FOR GAME.PHP*/
+#towerCounter{
+    position: fixed;
+    width: 150px;
+    border: 1px solid black;
+    top: 105px;
+    left: 91px;
+}
+#towerCounter p {
+	text-align:center;
+	
+}
+
+#scrollImage {
+	position:fixed;
+	z-index:-1;
+}
+#closePlayerImage{
+	border:1px solid red;
+	position:fixed;
+	height:200px;
+	width:200px;
+	top:606px;
+	left:819px;
+}
+#middlePlayerImage{
+	border: 1px solid red;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 606px;
+    left: 605px;
+}
+#bottomPlayerImage {
+	border: 1px solid red;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 606px;
+    left: 390px;
+}
+#boss {
+	border: 1px solid red;
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    top: 504px;
+    left: 1229px;
+      z-index: 50;
+}
+#skill_1name{
+     position: fixed;
+    height: 20px;
+    width: 118px;
+    border: 1px solid black;
+    top: 172px;
+    left: 99px;
+    text-align: center;
+}
+#skill_2name{
+    position: fixed;
+    height: 20px;
+    width: 118px;
+    border: 1px solid black;
+    top: 315px;
+    left: 99px;
+    text-align: center;
+}
+#skill_3name{
+    position: fixed;
+    height: 20px;
+    width: 118px;
+    border: 1px solid black;
+    top: 461px;
+    left: 99px;
+    text-align: center;
+}
+#skill_4name{
+	    position: fixed;
+    height: 20px;
+    width: 118px;
+    border: 1px solid black;
+    top: 607px;
+    left: 99px;
+    text-align: center;
+}
+#skill_1{
+  position: fixed;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    top: 193px;
+    left: 117px;
+    padding:0px;
+}
+#skill_2{
+position: fixed;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    top: 336px;
+    left: 117px;
+    padding:0px;
+}
+#skill_3{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    top: 482px;
+    left: 117px;
+    padding:0px;
+}
+#skill_4{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    top: 628px;
+    left: 117px;
+    padding:0px;
+}
+#trigger{
+    position: fixed;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    top: 777px;
+    left: 90px;
+    background-color: green;
+}
+#playerStats{
+	position: fixed;
+    height: 60px;
+    width: 292px;
+    border: 1px solid black;
+    top: 879px;
+    left: 51px;
+}
+#playerStats p {
+	margin:0px;
+	padding: 0px;
+}
+
+
+#bosshealth{
+    background-color: red;
+    position: fixed;
+    height: 20px;
+    width: 301px;
+    color: white;
+    top: 471px;
+    left: 1229px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+
+
+}
+
+#cpiplayerhealth{
+    
+    background-color: blue;
+    position: fixed;
+    height: 20px;
+    width: 200px;
+    color: white;
+    top: 572px;
+    left: 819px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+
+
+
+}
+
+#mpiplayerhealth{
+    background-color: blue;
+    position: fixed;
+    height: 20px;
+    width: 200px;
+    color: white;
+    top: 572px;
+    left: 606px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+
+
+
+}
+
+#bpiplayerhealth{
+        background-color: blue;
+    position: fixed;
+    height: 20px;
+    width: 200px;
+    color: white;
+    top: 572px;
+    left: 390px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+ 
+
+
+
+}
+
+#cpiplayername{
+   text-align: center;
+    position: fixed;
+    height: 20px;
+    width: 198px;
+    color: white;
+    top: 786px;
+    left: 820px;
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
+    border-top: 1px solid red;
+
+
+
+
+}
+
+#mpiplayername{
+    text-align: center;
+    position: fixed;
+    height: 20px;
+    width: 198px;
+    color: white;
+    top: 786px;
+    left: 607px;
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
+    border-top: 1px solid red;
+
+
+
+
+}
+
+#bpiplayername{
+      text-align: center;
+    position: fixed;
+    height: 20px;
+    width: 198px;
+    color: white;
+    top: 786px;
+    left: 392px;
+    /* border: 1px solid white; */
+    /* border-radius: 5px; */
+    border-top: 1px solid red;
+ 
+
+
+
+}
+#topHit{
+   
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    top: 604px;
+    left: 1229px;
+    z-index: 100;
+}
+#topHiti{
+        position: fixed;
+        
+      
+}
+
+.cooldown{
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    z-index: 1;
+    bottom: 125%;
+    margin-left: -80px;
+}
+#savequit {
+    position: fixed;
+    background-color: #ff9b9b;
+    border: 1px solid #ff9b9b;
+    width: 121px;
+    height: 22px;
+    border-radius: 6px;
+    text-align: center;
+    top: 6px;
+    left: 1465px;
+}
+#savequit p
+{
+    margin: 0px;
+}
+#quit {
+   position: fixed;
+    background-color: #ff9b9b;
+    border: 1px solid #ff9b9b;
+    width: 43px;
+    height: 22px;
+    border-radius: 6px;
+    text-align: center;
+    top: 42px;
+    left: 1540px;
+}
+#quit p{
+    margin:0px;
+}
+#cooldown1{
+        top: 192px;
+    position: fixed;
+    left: 177px;
+    width: 20px;
+    height: 85px;
+}
+#cooldown2{
+    top: 335px;
+    position: fixed;
+    left: 177px;
+    width: 20px;
+    height: 85px;
+}
+#cooldown3{
+       top: 480px;
+    position: fixed;
+    left: 177px;
+    width: 20px;
+    height: 85px;
+}
+#cooldown4 {
+    top: 625px;
+    position: fixed;
+    left: 177px;
+    width: 20px;
+    height: 85px;
+}
+#closePlayerHit{
+        border: 1px solid red;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 606px;
+    left: 819px;
+}
+#middlePlayerHit{
+        border: 1px solid red;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 606px;
+    left: 605px;
+}
+#bottomPlayerHit{
+    border: 1px solid red;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 606px;
+    left: 390px;
+}
+#bossName{
+        border: 1px solid red;
+    position: fixed;
+    height: 20px;
+    width: 300px;
+    top: 806px;
+    left: 1230px;
+        text-align: center;
+    color: white;
+}
